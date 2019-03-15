@@ -1,5 +1,9 @@
 class Fibonacci
   def self.of(number)
-    number
+    if number == 0
+      0
+    else
+      1
+    end
   end
 end
