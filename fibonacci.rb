@@ -5,7 +5,7 @@ class Fibonacci
     elsif number < 2
       1
     else
-      of(number - 1) + (number -2)
+       of(number - 1) + of(number -2)
     end
   end
 end
